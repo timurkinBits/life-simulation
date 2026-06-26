@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dq31miwfs4nym"]
+
+[ext_resource type="Script" uid="uid://dk61udcqthw4w" path="res://mutations/nose.gd" id="1_1xuou"]
+[ext_resource type="Texture2D" uid="uid://cem7r82a0ccs8" path="res://sprites/nose.png" id="2_hgf81"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jd3oo"]
+size = Vector2(28, 8)
+
+[node name="Nose" type="Node2D" unique_id=447809056]
+script = ExtResource("1_1xuou")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1530884758]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=586615580]
+position = Vector2(14, 0)
+shape = SubResource("RectangleShape2D_jd3oo")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=540850482]
+texture_filter = 1
+position = Vector2(9, 0)
+rotation = 1.5707964
+texture = ExtResource("2_hgf81")

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://de0ejxcg4is5w"]
+
+[ext_resource type="Script" uid="uid://oq7gp05xdgcq" path="res://scripts/food.gd" id="1_af40f"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xven1"]
+
+[node name="food" type="Node2D" unique_id=1831205832 groups=["food"]]
+script = ExtResource("1_af40f")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1753295190]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1088767097]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=725724990]
+shape = SubResource("CircleShape2D_xven1")
