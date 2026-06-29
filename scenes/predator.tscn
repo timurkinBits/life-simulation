@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://du5ni5u5f1v0i"]
+
+[ext_resource type="Texture2D" uid="uid://c8jigchu0fswk" path="res://sprites/predator.png" id="1_2ixv2"]
+[ext_resource type="Script" uid="uid://dqfx7yjangipe" path="res://scripts/predator.gd" id="1_wacsr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2ixv2"]
+radius = 9.055386
+
+[node name="Predator" type="Node2D" unique_id=1318296567]
+script = ExtResource("1_wacsr")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1297930473]
+texture_filter = 1
+texture = ExtResource("1_2ixv2")
+
+[node name="mouth" type="Area2D" parent="." unique_id=1041647480]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mouth" unique_id=739643952]
+position = Vector2(5, 0)
+shape = SubResource("CircleShape2D_2ixv2")

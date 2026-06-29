@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cggjwo2hulycv"]
+
+[ext_resource type="Texture2D" uid="uid://b647dow71yaf4" path="res://sprites/fin.png" id="1_n1l8w"]
+[ext_resource type="Script" uid="uid://b4qj7dyfyyuwo" path="res://organs/fin/fin.gd" id="1_t2cv5"]
+
+[node name="Fin" type="Node2D" unique_id=823040252]
+script = ExtResource("1_t2cv5")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1849676707]
+texture_filter = 1
+position = Vector2(-5, 0)
+rotation = 1.5707964
+texture = ExtResource("1_n1l8w")

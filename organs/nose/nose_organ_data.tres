@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="OrganData" format=3 uid="uid://c871qfxlx7ei8"]
+
+[ext_resource type="Script" uid="uid://biw3yiaffbbaf" path="res://organs/organ_data.gd" id="1_qnt88"]
+
+[resource]
+script = ExtResource("1_qnt88")
+scene_path = "res://organs/nose/nose.tscn"
+display_name = "Нос"
+params = {
+"smell_radius": 150.0
+}
+spawn_weight = 0.5
+metadata/_custom_type_script = "uid://biw3yiaffbbaf"

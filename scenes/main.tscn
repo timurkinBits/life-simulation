@@ -10,7 +10,6 @@
 script = ExtResource("1_0wfyh")
 food_scene = ExtResource("2_0wfyh")
 max_food_count = 400
-spawn_time = 0.05
 
 [node name="background" type="ColorRect" parent="." unique_id=101630258]
 z_index = -1
@@ -19,15 +18,65 @@ offset_bottom = 1080.0
 
 [node name="entity" parent="." unique_id=1545204814 instance=ExtResource("1_o5qli")]
 position = Vector2(962, 512)
+move_speed = null
+rotation_speed = null
+wander_radius = null
+min_idle_time = null
+max_idle_time = null
+arrive_threshold = null
+hunger_max = null
+hunger_regen = null
+entity_color = null
+organ_genome = null
 
 [node name="entity2" parent="." unique_id=139649379 instance=ExtResource("1_o5qli")]
 position = Vector2(962, 512)
+move_speed = null
+rotation_speed = null
+wander_radius = null
+min_idle_time = null
+max_idle_time = null
+arrive_threshold = null
+hunger_max = null
+hunger_regen = null
+entity_color = null
+organ_genome = null
 
 [node name="entity3" parent="." unique_id=544839744 instance=ExtResource("1_o5qli")]
 position = Vector2(962, 512)
+move_speed = null
+rotation_speed = null
+wander_radius = null
+min_idle_time = null
+max_idle_time = null
+arrive_threshold = null
+hunger_max = null
+hunger_regen = null
+entity_color = null
+organ_genome = null
 
 [node name="entity4" parent="." unique_id=2094614822 instance=ExtResource("1_o5qli")]
 position = Vector2(962, 512)
+move_speed = null
+rotation_speed = null
+wander_radius = null
+min_idle_time = null
+max_idle_time = null
+arrive_threshold = null
+hunger_max = null
+hunger_regen = null
+entity_color = null
+organ_genome = null
 
 [node name="entity5" parent="." unique_id=574763631 instance=ExtResource("1_o5qli")]
 position = Vector2(962, 512)
+move_speed = null
+rotation_speed = null
+wander_radius = null
+min_idle_time = null
+max_idle_time = null
+arrive_threshold = null
+hunger_max = null
+hunger_regen = null
+entity_color = null
+organ_genome = null

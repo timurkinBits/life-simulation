@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="OrganData" format=3 uid="uid://dy8nahvg7sj0b"]
+
+[ext_resource type="Script" uid="uid://biw3yiaffbbaf" path="res://organs/organ_data.gd" id="1_7usda"]
+
+[resource]
+script = ExtResource("1_7usda")
+scene_path = "res://organs/fin/fin.tscn"
+display_name = "Плавник"
+params = {
+"speed": 40.0,
+"turn_speed": 10.0
+}
+spawn_weight = 0.8
+metadata/_custom_type_script = "uid://biw3yiaffbbaf"
